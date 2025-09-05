@@ -155,6 +155,7 @@
             this.txtSenha.Size = new System.Drawing.Size(572, 29);
             this.txtSenha.TabIndex = 66;
             this.txtSenha.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtSenha.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtSenha_KeyDown);
             // 
             // lblSenha
             // 
