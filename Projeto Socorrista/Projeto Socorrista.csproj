@@ -131,6 +131,12 @@
     <Compile Include="frmLoginNovo.Designer.cs">
       <DependentUpon>frmLoginNovo.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmMenuNovo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenuNovo.Designer.cs">
+      <DependentUpon>frmMenuNovo.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMenuPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -162,6 +168,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmLoginNovo.resx">
       <DependentUpon>frmLoginNovo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenuNovo.resx">
+      <DependentUpon>frmMenuNovo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMenuPrincipal.resx">
       <DependentUpon>frmMenuPrincipal.cs</DependentUpon>
